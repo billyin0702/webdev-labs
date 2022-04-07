@@ -1,0 +1,101 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 3vh;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.before{
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+nav ul {
+    width: 250px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+style {
+    background-color: rgb(39, 39, 185);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    margin: 15px;
+    width: 50vh;
+    height: 70vh;
+    /* justify-content: space-between; */
+}
+
+.img_mod {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    width: 49.9vh;
+    height: 30vh;
+    object-fit: cover;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    /* Media queries go here */
+}
+
+@media only screen and (max-width: 600px) {
+    /* Media queries go here */
+}
