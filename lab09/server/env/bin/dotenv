@@ -1,0 +1,8 @@
+#!/Users/billyin/Documents/College/NU/Courses/02_Sophomore/C_2022_Spring/CS_396-2/webdev-labs/lab09/server/env/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from dotenv.cli import cli
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())
